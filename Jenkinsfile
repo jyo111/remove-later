@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PATH = "/usr/share/maven/bin:$PATH"
+        PATH = "/maven3/bin:$PATH"
     }
     stages {
         stage("Maven build") {
