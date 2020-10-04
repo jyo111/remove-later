@@ -9,7 +9,7 @@ pipeline {
                 echo 'GGGGGGGGGGGGGGGGGGGGGG'
             }
         }
-        stage {
+        stage('maven build') {
             steps {
                 sh "mvn clean package"
 
